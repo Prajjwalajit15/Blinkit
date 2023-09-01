@@ -51,8 +51,9 @@
 ::-webkit-scrollbar{
     display:none;
 }
-  .my-card{
+  .my-card{ 
     width:179px;
+    height: 300px;
     margin-inline: 10px; 
 } 
 .my-card-time{
@@ -162,6 +163,9 @@ td{
     font-size: 14px;
     color: #6f6f6f;
 }
+footer{
+   margin: 5%;
+}
 @media screen and (max-width:768px) {
     nav,.row-2,.row-1{
         flex-direction: column !important;
@@ -184,4 +188,4 @@ td{
     .social{
         margin-top: 10px;
     }
-}
+} 
